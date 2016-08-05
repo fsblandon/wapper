@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/principalDark</item>
+        <item name="colorPrimaryDark">@color/principal</item>
+        <item name="colorAccent">@color/principalAccent</item>
+    </style>
+
+    <style name="AppthemeMain" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">#77FFFFEE</item>
+        <item name="colorAccent">#FFFFFFFF</item>
+        <item name="colorControlActivated">#FFFFFFFF</item>
+        <item name="colorControlHighlight">#FFFFFFFF</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/coffee</item>
+    </style>
+
+
+    <style name="label" parent="AppTheme">
+        <item name="android:layout_marginRight">70dp</item>
+        <item name="android:layout_marginLeft">70dp</item>
+    </style>
+
+    <style name="ActionBar">
+        <item name="displayOptions">showHome|showTitle|homeAsUp</item>
+    </style>
+
+    <style name="Textolabel" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/principal</item>
+        <item name="colorControlActivated">@color/blanco</item>
+        <item name="colorControlHighlight">@color/blanco</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeHome" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#FFFFFFFF</item>
+        <item name="colorPrimary">@color/gris</item>
+        <item name="colorPrimaryDark">@color/principalDark</item>
+        <item name="android:textColorPrimary">@color/blanco</item>
+    </style>
+
+    <style name="Principal" parent="Theme.AppCompat.Light" >
+        <item name="colorPrimary">@color/gris</item>
+        <item name="colorPrimaryDark">@color/primary_material_dark</item>
+        <item name="colorAccent">@color/principal</item>
+        <item name="android:textColorPrimary">@color/background_material_light</item>
+        <item name="android:textColor">@color/gris</item>
+    </style>
+
+    <style name="ListFont" parent="@android:style/Widget.ListView">
+        <item name="android:textColor">#014004</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <!--<style name="NoActionBar">
+        <item name="windowFullscreen">true</item>
+        <item name="windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>-->
+
+
+</resources>

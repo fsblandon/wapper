@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Wapper</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="login">INICIAR SESIÓN</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="error_usuario">Usuario Incorrecto</string>
+    <string name="error_contraseña">Contraseña Invalida</string>
+    <string name="error_campo_requerido">Campo Obligatorio</string>
+    <string name="tienes_cuenta">¿Tienes cuenta?</string>
+    <string name="nombre">Nombre</string>
+    <string name="id">ID/CC</string>
+    <string name="direccion">Dirección</string>
+    <string name="correo">Email</string>
+    <string name="movil">Móvil</string>
+    <string name="login_failed">Error de autenticación</string>
+    <string name="registro_failed">Error al registrar</string>
+    <string name="autenticando">Autenticando...</string>
+    <string name="title_activity_home">Home</string>
+    <string name="error_correo_invalido">Correo invalido</string>
+    <string name="error_cedula">Esta cedula es invalida</string>
+    <string name="registro_completo">Usuario registrado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bills">Bills</string>
+    <string name="title_activity_invoices">Invoices</string>
+    <string name="energia">Energía</string>
+    <string name="agua">Agua</string>
+    <string name="gas">Gas</string>
+    <string name="title_activity_wapps">Wapps</string>
+
+</resources>

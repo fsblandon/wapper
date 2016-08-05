@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/name_ballena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/wapper_ballena"/>
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_ballena"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="@string/nombre"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:theme="@style/Textolabel"
+        android:background="@drawable/shape1"/>
+
+    <EditText
+        android:id="@+id/cedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="@string/id"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:theme="@style/Textolabel"
+        android:background="@drawable/shape1"/>
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cedula"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="@string/direccion"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:theme="@style/Textolabel"
+        android:background="@drawable/shape1"/>
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/direccion"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:theme="@style/Textolabel"
+        android:background="@drawable/shape1"/>
+
+
+    <EditText
+        android:id="@+id/movil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/correo"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="@string/movil"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:theme="@style/Textolabel"
+        android:background="@drawable/shape1"/>
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movil"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="@string/contraseña"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:theme="@style/Textolabel"
+        android:background="@drawable/shape1"/>
+
+    <EditText
+        android:id="@+id/recontrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contrasena"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="Reescribir Contraseña"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textColorHint="@color/blanco"
+        android:theme="@style/Textolabel"
+        android:background="@drawable/shape1"/>
+
+    <Button
+        android:id="@+id/btn_registrov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recontrasena"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:onClick="lanzarHome"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/registrarse"
+        android:textColor="@color/blanco"/>
+
+
+</RelativeLayout>
